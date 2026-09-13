@@ -1,0 +1,50 @@
+:root {
+    --negro: #080607;
+    --borgona: #1A1015;
+    --vino: #8F304C;
+    --rosa: #F2B6C8;
+    --crema: #FFF1E6;
+    --blanco: #FFFFFF;
+}
+.principal {
+    background-image: url("/assets/fondo_principal.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal .cont-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    line-height: 420px;
+}
+
+.principal .cont-text p{
+    color: var(--rosa);
+    font-family: "Brush Script MT", "Segoe Script", cursive;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.principal button{
+    padding: 15px 40px;
+    border-radius: 30px;
+
+    border: none;
+    background-color: var(--vino);
+    color: white;
+    margin-top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.principal button:hover{
+    background-color: #965065;
+}

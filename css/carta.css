@@ -1,0 +1,46 @@
+:root {
+    --negro: #080607;
+    --borgona: #1A1015;
+    --vino: #8F304C;
+    --rosa: #F2B6C8;
+    --crema: #FFF1E6;
+    --blanco: #FFFFFF;
+}
+
+.cont-carta{
+    background-color: var(--negro);
+    height: 100dvh;
+}
+
+.carta header{
+    padding: 10px;
+}
+
+.carta header img{
+    width: 40px;
+}
+
+.cont-cart{
+    background-image: url(/assets/fondo_carta.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    padding: 25px;
+    margin: 10px;
+    border-radius: 20px;
+
+    height: 600px;
+    overflow-y: auto;
+}
+
+.cont-cart h1{
+    font-family: "Lucida Handwriting", cursive;
+    font-size: 22px;
+}
+
+.cont-cart p{
+    font-family: "Trebuchet MS", sans-serif;
+    line-height: 25px;
+    font-weight: 400;
+}
