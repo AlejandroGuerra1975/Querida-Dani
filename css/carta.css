@@ -13,6 +13,8 @@
 }
 
 .carta header{
+    display: flex;
+    justify-content: space-between;
     padding: 10px;
 }
 
@@ -30,17 +32,23 @@
     margin: 10px;
     border-radius: 20px;
 
-    height: 600px;
+    height: 560px;
     overflow-y: auto;
 }
 
 .cont-cart h1{
     font-family: "Lucida Handwriting", cursive;
     font-size: 22px;
+    color: var(--borgona);
 }
 
 .cont-cart p{
     font-family: "Trebuchet MS", sans-serif;
     line-height: 25px;
     font-weight: 400;
+    color: var(--borgona);
+}
+
+.like .cor-oculto{
+    display: none;
 }
